@@ -9,22 +9,22 @@ export default function AppLayout() {
             <nav>
                 <ul>
                 <li>
-                    <NavLink to={ROUTES.home} >
+                    <NavLink to={ROUTES.home()} >
                     Home
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={ROUTES.aboutMe} >
+                    <NavLink to={ROUTES.aboutMe()} >
                     About Me
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={ROUTES.projects} >
+                    <NavLink to={ROUTES.projects()} >
                     Projects
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={ROUTES.contact} >
+                    <NavLink to={ROUTES.contact()} >
                     Contact
                     </NavLink>
                 </li>
