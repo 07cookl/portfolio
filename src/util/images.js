@@ -9,13 +9,13 @@ import redditMinimal from "../resources/images/Reddit Minimal.png";
 import teaCozy from "../resources/images/Tea Cozy Webpage.png";
 
 const imagesForCarousel = [
-    {src: redditMinimal, alt: "preview of Reddit Minimal project"},
-    {src: jammming, alt: "preview of Jammming project"},
-    {src: flashcards, alt: "preview of Flashcards project"},
-    {src: fotomatic, alt: "preview of Fotomatic project"},
-    {src: adoptAPet, alt: "preview of Adopt A Pet project"},
-    {src: appointmentPlanner, alt: "preview of Appointment Planner project"},
-    {src: teaCozy, alt: "preview of Tea Cozy project"},
+    {src: redditMinimal, alt: "preview of Reddit Minimal project", link: "https://07cookl-reddit-minimal.netlify.app"},
+    {src: jammming, alt: "preview of Jammming project", link: "https://07cookl.netlify.app"},
+    {src: flashcards, alt: "preview of Flashcards project", link: "https://flashcards-07cookl.netlify.app/"},
+    {src: fotomatic, alt: "preview of Fotomatic project", link: "./resources/project-links/fotomatic_broken/index.html"},
+    {src: adoptAPet, alt: "preview of Adopt A Pet project", link: "https://codecademy-pet-project.netlify.app/"},
+    {src: appointmentPlanner, alt: "preview of Appointment Planner project", link: "https://appointment-planner-07cookl.netlify.app/contacts"},
+    {src: teaCozy, alt: "preview of Tea Cozy project", link: "./resources/project-links/Tea Cozy/index.html"},
 ];
 
 // {src: myPhoto, alt: "Laurence Cook"},

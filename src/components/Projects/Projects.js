@@ -8,6 +8,14 @@ export default function Projects () {
     const renderSlides = () => {
         return imagesForCarousel.map((slide, index) => (
             <SplideSlide key={index}>
+                <a href={slide.link}><img src={slide.src} alt={slide.alt} /></a>
+            </SplideSlide>
+        ))
+    }
+
+    const renderThumbnails = () => {
+        return imagesForCarousel.map((slide, index) => (
+            <SplideSlide key={index}>
                 <img src={slide.src} alt={slide.alt} />
             </SplideSlide>
         ))
@@ -58,7 +66,7 @@ export default function Projects () {
                 ref={thumbsRef}
                 aria-label="The carousel with thumbnails. Selecting a thumbnail will change the main carousel"
             >
-                {renderSlides()}
+                {renderThumbnails()}
             </Splide>
         </div>
     )
