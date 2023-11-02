@@ -1,0 +1,59 @@
+.imageCarousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 2rem 0;
+}
+
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.carouselImage {
+    width: 61rem;
+    overflow: hidden;
+}
+
+.carouselImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.arrow {
+    cursor: pointer;
+    height: 3rem;
+}
+
+.thumbnailContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.thumbnailContainer img {
+    width: 5rem;
+    cursor: pointer;
+}
+
+.thumbnailContainer img.active {
+    border: 2px solid var(--highlight);
+}
+
+.projectTitle {
+    margin: 0.5rem 2rem 0;
+    color: var(--text);
+    font-size: 2rem;
+}
+
+.projectDescription {
+    margin: 0.5rem 2rem;
+    max-width: 61rem;
+    color: var(--text);
+    line-height: 1.25rem;
+}

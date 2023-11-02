@@ -10,25 +10,13 @@
 /* 1. Global Styles
 ============================= */
 
-* {
+div.teaCozy > * {
     box-sizing: border-box;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
-}
-
-html {
-    height: 100%;
-    width: 100%;
-    margin: 0 0;
-}
-
-body {
-    height: 100%;
-    width: 100%;
-    margin: 0 0;
 }
 
 /* 2. Typography Styles
@@ -73,7 +61,7 @@ a {
 /* Site Navigation */
 
 .header {
-    position: fixed;
+    /* position: fixed; */
     height: 69px;
     border-bottom: 1px solid seashell;
     display: flex;
@@ -87,7 +75,7 @@ a {
     margin-left: 10px;
 }
 
-.header-right {
+.headerRight {
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -103,6 +91,11 @@ a {
 
 .nav li {
     margin-left: 22px;
+}
+
+.nav li a {
+    color: seashell;
+    text-decoration: none;
 }
 
 /* Site Footer */
@@ -121,12 +114,13 @@ a {
 
 .container {
     position:relative;
-    top: 69px; left: auto;
+    /* top: 69px;  */
+    left: auto;
 }
 
 /* Mission */
 
-.mission-container {
+.missionContainer {
     display: flex;
     justify-content: center;
 }
@@ -139,7 +133,7 @@ a {
     align-items: center;
 }
 
-.mission-heading {
+.missionHeading {
     background-color: black;
     width: 1200px;
     padding: 20px 0 20px 0;
@@ -150,20 +144,20 @@ a {
     gap: 20px;
 }
 
-.mission-heading h2,
-.mission-heading h4 {
+.missionHeading h2,
+.missionHeading h4 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
 /* Tea of the Month */
 
-.featured-tea-container {
+.featuredTeaContainer {
     display: flex;
     justify-content: center;
 }
 
-.featured-tea {
+.featuredTea {
     width: 1000px;
     display: flex;
     justify-content: center;
@@ -181,19 +175,19 @@ a {
     cursor:pointer;
 }
 
-.tea-list h4 {
+.teaList h4 {
     margin-top: 10px;
 }
 
 /* Locations */
 
-.location-container {
+.locationContainer {
     display: inline-flex;
     justify-content: center;
     align-items: center;
 }
 
-.location-background {
+.locationBackground {
     height: 500px;
     width: 1200px;
     background-image: url("../images/img-locations-background.jpg");
@@ -203,12 +197,12 @@ a {
     gap: 15px;
 }
 
-.location-background h2 {
+.locationBackground h2 {
     background: none;
     margin: 0;
 }
 
-.location-list {
+.locationList {
     display: flex;
     justify-content: center;
     background: none;

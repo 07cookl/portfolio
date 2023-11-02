@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 /* Universal Styles */
 
-html {
+.fotomatic {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }

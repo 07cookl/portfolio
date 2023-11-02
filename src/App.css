@@ -1,0 +1,64 @@
+:root {
+    --nav-height: 50px;
+    --background: #19535F;
+    --card: #0B7A75;
+    --accent: #7B2D26;
+    --text: #F0F3F5;
+    --highlight: #FFA500;
+    background-color: var(--background);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    height: var(--nav-height);
+    background: #7B2D2655;
+    box-shadow: 0 0 1rem 0 #7B2D2680;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li {
+    margin: auto;
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    padding: 0.75rem 0.5rem;
+    display: inline-block;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.25rem;
+    border-radius: 0.25rem;
+    bottom: 0;
+    left: 0;
+    background-color: var(--highlight);
+    transform-origin: center bottom;
+    transition: transform 0.25s ease-out;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+    transform-origin: center bottom;
+}
