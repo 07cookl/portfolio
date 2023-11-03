@@ -23,12 +23,14 @@
     font-size: 4rem;
     margin-top: 0;
     margin-bottom: 1rem;
+    font-family: 'Quicksand-SemiBold', sans-serif;
 }
 
 .contactText p {
     font-size: 1.5rem;
     margin: 2rem 0;
     line-height: 2rem;
+    font-family: 'Quicksand-Regular', sans-serif;
 }
 
 .logo {

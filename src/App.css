@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: local("Quicksand-Bold"), url("./resources/fonts/Quicksand/static/Quicksand-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: local("Quicksand-Medium"), url("./resources/fonts/Quicksand/static/Quicksand-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: local("Quicksand-Light"), url("./resources/fonts/Quicksand/static/Quicksand-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Quicksand-SemiBold';
+    src: local("Quicksand-SemiBold"), url("./resources/fonts/Quicksand/static/Quicksand-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'Quicksand-Regular';
+    src: local("Quicksand-Regular"), url("./resources/fonts/Quicksand/static/Quicksand-Regular.ttf") format("truetype");
+}
+
 :root {
     --nav-height: 50px;
     --background: #19535F;
@@ -42,6 +67,7 @@ nav a {
     padding: 0.75rem 0.5rem;
     display: inline-block;
     position: relative;
+    font-family: 'Quicksand-Regular', sans-serif;
 }
 
 nav a::after {

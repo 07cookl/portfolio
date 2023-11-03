@@ -24,6 +24,11 @@ export default function AppLayout() {
                     </NavLink>
                 </li>
                 <li>
+                    <NavLink to={ROUTES.challenges()} >
+                    Challenges
+                    </NavLink>
+                </li>
+                <li>
                     <NavLink to={ROUTES.contact()} >
                     Contact
                     </NavLink>

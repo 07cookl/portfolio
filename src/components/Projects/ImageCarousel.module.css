@@ -21,6 +21,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 0.5rem;
 }
 
 .arrow {
@@ -39,6 +40,7 @@
 .thumbnailContainer img {
     width: 5rem;
     cursor: pointer;
+    border-radius: 0.25rem;
 }
 
 .thumbnailContainer img.active {
@@ -49,6 +51,7 @@
     margin: 0.5rem 2rem 0;
     color: var(--text);
     font-size: 2rem;
+    font-family: 'Quicksand-SemiBold', sans-serif;
 }
 
 .projectDescription {
@@ -56,4 +59,5 @@
     max-width: 61rem;
     color: var(--text);
     line-height: 1.25rem;
+    font-family: 'Quicksand-Regular', sans-serif;
 }

@@ -1,0 +1,31 @@
+import image from "../resources/images/Photo.png";
+
+export const challengesData = [
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."},
+    {src:image, figCaption:"A brief description of the challenge."}
+]
