@@ -11,7 +11,7 @@ export default function TeaCozy () {
     return (
         <div className={styles.teaCozy}>
             <div className={styles.header}>
-                <img className={styles.logo} src={logo}/>
+                <img className={styles.logo} src={logo} alt="logo"/>
                 <div className={styles.headerRight}>
                     <ul className={styles.nav}>
                         <li><a href="#mission">Mission</a></li>

@@ -1,0 +1,60 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 1.5rem;
+}
+
+.aboutMeImages {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0 1rem;
+    width: 26rem;
+    margin: 2rem 0;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMeImages img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 0.5rem;
+}
+
+.aboutMeText {
+    width: 45rem;
+    margin-top: 2rem;
+    color: var(--text);
+}
+
+.aboutMeText h1 {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Quicksand-SemiBold', sans-serif;
+}
+
+.aboutMeText p {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    line-height: 2rem;
+    font-family: 'Quicksand-Regular', sans-serif;
+}
+
+.aboutMeText a {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    line-height: 2rem;
+    font-family: 'Quicksand-Regular', sans-serif;
+    color: var(--highlight);
+    text-decoration: none;
+}
+
+.aboutMeText a:hover {
+    text-decoration: underline;
+}

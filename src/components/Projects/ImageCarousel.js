@@ -64,7 +64,7 @@ const ImageCarousel = ({ images }) => {
                     </div>
                 </div>
                 <div className={styles.thumbnailContainer}>
-                    <img className={styles.arrow} src={arrowUp} onClick={goToPrevious}/>
+                    <img className={styles.arrow} src={arrowUp} alt="previous project" onClick={goToPrevious}/>
                     {images.map((image, index) => (
                     <img
                         key={index}
@@ -74,7 +74,7 @@ const ImageCarousel = ({ images }) => {
                         onClick={() => changeImage(index)}
                     />
                     ))}
-                    <img className={styles.arrow} src={arrowDown} onClick={goToNext}/>
+                    <img className={styles.arrow} src={arrowDown} alt="next project" onClick={goToNext}/>
                 </div>
             </div>
             <h2 className={styles.projectTitle}>{images[currentImageIndex].title}</h2>

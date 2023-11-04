@@ -1,5 +1,59 @@
 import React from "react";
+import styles from "./AboutMe.module.css";
+import { aboutMePhotos } from "../../util/aboutMeImages";
 
 export default function AboutMe () {
-    return <h1>This is the About Me page.</h1>
+    return (
+        <div className={styles.wrapper}>
+            <section className={styles.aboutMeImages}>
+                    {aboutMePhotos.map((photo, index) => (
+                        <div className={styles.imageContainer} key={index}>
+                            <img src={photo.src} alt={`Personal ${index}`}/>
+                        </div>
+                    ))}
+            </section>
+            <div className={styles.aboutMeText}>
+                <h1>About Me</h1>
+                <hr/>
+                <p>Hi! My name is Laurence Cook, I'm a Front End Developer.
+                    I live in the charming town of Cleethorpes, with its 
+                    glorious golden sands and brilliant blue water, and I'll 
+                    be blindly supporting the magnificent Grimsby Town until 
+                    the very end - UTM!</p>
+
+                <p>I spent six fulfilling years as a Maths teacher - five in 
+                    Burton-Upon-Trent and one in Cleethorpes. From starting 
+                    out as a nervous newbie to leading a department, I worked 
+                    with some truly incredible people and learned so much on 
+                    the journey.</p>
+
+                <p>In 2023 I took the plunge to become a Front End Developer, 
+                    driven by an unwavering passiong for the problem-solving 
+                    intricacies it offers. I am well-versed in essential web 
+                    development languages, including HTML, CSS, JavaScript 
+                    and ReactJS. I am proficient in using Mocha 
+                    and Jest for testing to ensure high quality code and using 
+                    Git and Github to efficiently manage my projects. You should 
+                    check out my <a href="/projects">Codecademy Projects </a> 
+                    and <a href="/challenges">Challenges</a> that I continue 
+                    to complete to further develop my skills.</p>
+
+                <p>When I'm not spreading the joyous message of Pythagoras 
+                    and Trigonometry or creating outstanding websites and 
+                    apps, I can be found training for the Ironman 70.3 Bolton, 
+                    getting lost in the MCU or saving the planet on video games.</p>
+
+                <p>I believe that life's most rewarding journeys are the ones 
+                    that allow you to combine passion, purpose, and a pinch 
+                    of adventure. As a Front End Developer, I'm here to 
+                    infuse that passion into every project I touch, bringing 
+                    your digital visions to life.</p>
+                    
+                <p>So, whether you're a fellow web enthusiast or just 
+                    someone looking for a developer who's ready to dive 
+                    headfirst into your project,  
+                    <a href="/contact"> I'm here and excited to connect</a>!</p>
+            </div>
+        </div>
+    )
 };
