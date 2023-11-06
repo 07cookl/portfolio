@@ -1,0 +1,77 @@
+.challengeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 0;
+}
+
+.progressBar {
+    display: flex;
+    align-items: center;
+}
+
+.bubble {
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    line-height: 3.5rem;
+    background-color: var(--text);
+    font-size: 2rem;
+    border: 0.25rem solid lightgrey;
+    border-radius: 50%;
+}
+
+.connector {
+    width: 6rem;
+    height: 0.5rem;
+    background: var(--text);
+}
+
+.isActive {
+    background: linear-gradient(to right, var(--highlight) 50%, var(--text) 0);
+    background-size: 200% 100%;
+    background-position: right;
+    animation: appear 0.4s forwards;
+}
+
+@keyframes appear {
+    100% {
+        background-position: left;
+    }
+}
+
+.activeBubble {
+    border: 0.25rem solid var(--highlight);
+    transition: border 0.4s ease-in-out;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn {
+    height: 2rem;
+    width: 6rem;
+    box-shadow: none;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.activeBtn {
+    background-color: var(--highlight);
+}
+
+.activeBtn:active {
+    height: 1.8rem;
+    width: 5.8rem;
+}
+
+.inactiveBtn {
+    background-color: gray;
+    cursor:not-allowed;
+}

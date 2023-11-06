@@ -1,0 +1,40 @@
+.cardContainer {
+    height: 30rem;
+    width: 4rem;
+    margin: 0 0.5rem;
+    transition: width 1s ease-in-out;
+    cursor: pointer;
+}
+
+.cardImage {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 2rem;
+}
+
+.cardCaption {
+    display: none;
+}
+
+.isActive {
+    width: 40rem;
+    height: 30rem;
+    margin: 0 0.5rem;
+    transition: width 1s ease-in-out;
+}
+
+.activeCaption {
+    display: block;
+    background: rgb(0,0,0,0.4);
+    position: relative;
+    padding: 1rem;
+    width: inherit;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    bottom: 4.75rem;
+    font-size: 2rem;
+    color: var(--text);
+    text-wrap: nowrap;
+    overflow: hidden;
+}

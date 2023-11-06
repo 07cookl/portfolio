@@ -24,8 +24,9 @@
 .card img {
     width: 10rem;
     height: 10rem;
-    object-fit: cover;
+    object-fit: contain;
     position: absolute;
+    border: 1px solid var(--text);
     border-radius: 0.5rem;
 
 }

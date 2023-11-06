@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Challenges from "./components/Challenges/Challenges";
+import Challenge from "./components/Challenges/Individual Challenges/Challenge";
 import TeaCozy from "./resources/project-links/Tea Cozy/TeaCozy";
 import "./resources/fonts/Quicksand/static/Quicksand-Bold.ttf";
 import "./resources/fonts/Quicksand/static/Quicksand-Light.ttf";
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="aboutMe" element={<AboutMe/>}/>
           <Route path="projects" element={<Projects/>}/>
           <Route path="challenges" element={<Challenges/>}/>
+          <Route path="challenges/:challengeId" element={<Challenge/>}/>
           <Route path="contact" element={<Contact/>}/>
           <Route path="teacozy" element={<TeaCozy/>}/>
         </Route>

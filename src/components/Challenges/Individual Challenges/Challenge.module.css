@@ -1,0 +1,25 @@
+.challengeContainer {
+    margin-top: 2.5rem;
+    width: 65rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.challengeInfo {
+    color: var(--text);
+}
+
+.challengeTitle {
+    font-family: 'Quicksand', sans-serif;
+    margin: 1rem 0;
+}
+
+.challengeDescription {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5rem;
+}
