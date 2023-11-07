@@ -1,22 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./BlurryLoading.module.css";
 
 export default function BlurryLoading () {
-    
-    let num = 0;
 
-    const percent = () => {
+    let percent = setInterval(increment, 50);
+    let num = 0;
+    function increment() {
+        document.getElementById("number").innerHTML = `${num}%`;
+        if (num === 100) {
+            clearInterval(percent);
+        }
+        let blurCount = 5 - num/20;
+        document.getElementById("image").style.filter = `blur(${blurCount}px)`;
+        num++
         return num;
     }
-
-    // if (num < 10) {
-    //     num++;
-    //     percent();
-    // }
-
     return (
-        <section className={styles.image}>
-            <p>{percent()}%</p>
+        <section id="image" className={styles.image}>
+            <p id="number">0%</p>
         </section>
     )
 }
