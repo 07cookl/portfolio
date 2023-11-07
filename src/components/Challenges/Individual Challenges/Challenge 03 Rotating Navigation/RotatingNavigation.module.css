@@ -1,0 +1,131 @@
+.challengeContainer {
+    background: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.navigationButton {
+    height: 15rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: var(--accent);
+    transition: transform 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.closeMenu {
+    position: relative;
+    top: 75%;
+    left: 25%;
+    width: 3rem;
+    cursor: pointer;
+    transform: translate(-50%, -75%);
+}
+
+.openMenu {
+    position: relative;
+    top: 75%;
+    left: calc(75% - 3rem);
+    width: 3rem;
+    cursor: pointer;
+    transform: translate(-75%, -50%);
+}
+
+.sideMenu {
+    background: darkslategray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15rem;
+    transform: rotate(26deg);
+    transform-origin: top left;
+    transition: transform 1s ease;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+.sideMenu ul {
+    position: relative;
+    top:60%;
+    padding-left: 0;
+    transform: translateX(-100%);
+    transition: transform 1s ease;
+}
+
+.sideMenu li {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: var(--text);
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.sideMenu li img {
+    height: 2rem;
+}
+
+.sideMenu li:nth-child(1) {
+    padding-left: 1rem;
+}
+
+.sideMenu li:nth-child(2) {
+    padding-left: 2rem;
+}
+
+.sideMenu li:nth-child(3) {
+    padding-left: 3rem;
+}
+
+.articleContainer {
+    width: 70%;
+    transform-origin: top left;
+    transition: transform 1s ease;
+}
+
+.articleContainer h2 {
+    margin-bottom: 0;
+}
+
+.articleAuthor {
+    margin: 0;
+    font-size: 0.75rem;
+}
+
+.articleContainer img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 8rem;
+}
+
+.rotatedButton {
+    transform: rotate(-90deg) translate(50%, -50%);
+    transition: transform 1s ease;
+}
+
+.rotatedMenu {
+    transform: translateX(0%) !important;
+    transition: transform 1s ease;
+}
+
+.rotated {
+    transform: rotate(0deg);
+    transform-origin: top left;
+    transition: transform 1s ease;
+}
+
+.rotatedArticle {
+    transform: rotate(-26deg);
+    transform-origin: top left;
+    transition: transform 1s ease;
+}
