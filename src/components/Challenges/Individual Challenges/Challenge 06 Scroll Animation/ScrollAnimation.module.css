@@ -2,10 +2,11 @@
     width: 50rem;
     height: 25rem;
     overflow-y: scroll;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid var(--text);
+    /* border: 1px solid var(--text); */
 }
 
 .challengeContainer h2 {
@@ -20,4 +21,19 @@
     background: var(--card);
     border-radius: 0.25rem;
     box-shadow: 0 8px 32px 0 #7B2D2680;
+    position: relative;
+}
+
+.challengeContainer div:nth-child(even) {
+    left: -100%;
+    transition: left 0.4s ease;
+}
+
+.challengeContainer div:nth-child(odd) {
+    left: 100%;
+    transition: left 0.4s ease;
+}
+
+.challengeContainer div:nth-child(-n + 3) {
+    left: 0 !important;
 }

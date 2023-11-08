@@ -1,0 +1,92 @@
+.challengeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text);
+    padding: 2rem 4rem;
+    border: 1px solid var(--text);
+    background: var(--card);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.challengeContainer h2 {
+    margin: 0 0 2.5rem;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.form input {
+    /* width: 100%; */
+    margin-bottom: 2rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    background-color: var(--card);
+    border: none;
+    border-bottom: 0.125rem solid var(--text);
+    font-family: 'Quicksand', sans-serif;
+    color: var(--text);
+    overflow: visible;
+}
+
+.form label {
+    position: absolute;
+    font-size: 1.25rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form button {
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form button:hover {
+    background: var(--highlight);
+}
+
+.form button:active {
+    padding: 0.8rem;
+    margin: 0.2rem;
+    width: 95%;
+}
+
+.form input:focus {
+    outline: none;
+    border-bottom: 0.125rem solid var(--highlight);
+}
+
+.inputContainer label span {
+    position: relative;
+    bottom: 0;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.inputContainer:focus-within label span {
+    color: var(--highlight);
+    position: relative;
+    bottom: 1.25rem;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.challengeContainer p {
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.challengeContainer p a {
+    color: var(--highlight);
+    text-decoration: none;
+}
