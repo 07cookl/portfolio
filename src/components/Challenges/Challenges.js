@@ -17,6 +17,7 @@ export default function Challenges () {
                     </Link>
                 ))}
             </section>
+            <p>More coming soon!</p>
         </div>
     )
 };

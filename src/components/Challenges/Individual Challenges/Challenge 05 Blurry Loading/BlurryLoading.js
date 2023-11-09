@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./BlurryLoading.module.css";
 
 export default function BlurryLoading () {
-
     let percent = setInterval(increment, 50);
     let num = 0;
     function increment() {
@@ -16,7 +15,8 @@ export default function BlurryLoading () {
         return num;
     }
     return (
-        <section id="image" className={styles.image}>
+        <section className={styles.challengeContainer}>
+            <div id="image" className={styles.image}/>
             <p id="number">0%</p>
         </section>
     )

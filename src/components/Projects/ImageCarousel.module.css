@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1.5rem 2rem 0;
+    margin: 2.5rem 2rem 0;
 }
 
 .carouselContainer {
@@ -13,7 +13,7 @@
 }
 
 .carouselImage {
-    width: 61rem;
+    width: 50rem;
     overflow: hidden;
 }
 
@@ -56,7 +56,7 @@
 
 .projectDescription {
     margin: 0.5rem 2rem;
-    max-width: 61rem;
+    max-width: 50rem;
     color: var(--text);
     line-height: 1.25rem;
     font-family: 'Quicksand-Regular', sans-serif;

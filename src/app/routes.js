@@ -1,6 +1,7 @@
 const ROUTES = {
     home: () => "/",
     aboutMe: () => "/aboutMe",
+    projectsChallenges: () => "/projectsChallenges",
     projects: () => "/projects",
     challenges: () => "/challenges",
     challengesRoute: (id) => `/challenges/${id}`,

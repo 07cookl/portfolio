@@ -15,6 +15,8 @@ import SplitLandingPage from "../components/Challenges/Individual Challenges/Cha
 import splitLandingPage from "../resources/images/Challenges/Split Landing Page.png";
 import FormWave from "../components/Challenges/Individual Challenges/Challenge 08 Form Wave/FormWave";
 import formWave from "../resources/images/Challenges/Form Wave.png";
+import SoundBoard from "../components/Challenges/Individual Challenges/Challenge 09 Sound Board/SoundBoard";
+import soundBoard from "../resources/images/Challenges/Sound Board.png";
 
 export const challengesData = [
     {id: 0, src:expandingCards, challenge: <ExpandingCards />, title:"Expanding Cards", description: "This challenge involved using dynamic states to allow the user to change the feature image. I achieved this by first mapping each card into the container, then setting active classes using props, useState( ) and ternary operators."},
@@ -25,23 +27,23 @@ export const challengesData = [
     {id: 5, src:scrollAnimation, challenge: <ScrollAnimation />, title:"Scroll Animation", description: "This challenge uses the position of an element to change its properties. I first learned how to locate the position of an element and how to use scroll listeners, then I applied that knowledge to work with multiple elements. Finally, I implemented the useEffect hook to update the page as the use scrolls."},
     {id: 6, src:splitLandingPage, challenge: <SplitLandingPage />, title:"Split Landing Page", description: "This challenge is designed to be a responsive landing page to take the user down one of two routes. To achieve this effect I used hover features to transition the width of the target side. Additionally, I used box-shadow to create the colour overlay for each image."},
     {id: 7, src:formWave, challenge: <FormWave />, title:"Form Wave", description: "This challenge included using inline styles to create the movement effect. Each character for the input fields is in its own <span> tag with an individual transition-delay value. I also used a cubic-bezier curve to achieve the bouncing effect."},
-    {id: 8, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 9, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 10, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 11, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 12, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 13, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 14, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 15, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 16, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 17, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 18, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 19, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 20, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 21, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 22, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 23, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 24, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 25, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    {id: 26, src:image, title:"Challenge Title", description: "This is the challenge description."}
+    {id: 8, src:soundBoard, challenge: <SoundBoard />, title:"Sound Board", description: "This challenge required the use of playing audio upon user interaction. I used JavaScript's built in Audio feature inside an onClick handler to achieve this."},
+    // {id: 9, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 10, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 11, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 12, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 13, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 14, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 15, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 16, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 17, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 18, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 19, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 20, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 21, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 22, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 23, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 24, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 25, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    // {id: 26, src:image, title:"Challenge Title", description: "This is the challenge description."}
 ]

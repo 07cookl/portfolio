@@ -19,13 +19,8 @@ export default function AppLayout() {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={ROUTES.projects()} >
-                    Projects
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to={ROUTES.challenges()} >
-                    Challenges
+                    <NavLink to={ROUTES.projectsChallenges()} >
+                    My Work
                     </NavLink>
                 </li>
                 <li>

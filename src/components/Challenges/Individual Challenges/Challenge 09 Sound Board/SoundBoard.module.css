@@ -1,0 +1,27 @@
+.challengeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 30rem;
+    margin: 3rem 0 5rem;
+}
+
+.soundButton {
+    width: 12rem;
+    font-size: 1.25rem;
+    font-family: 'Quicksand', sans-serif;
+    color: var(--text);
+    background: var(--card);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    box-shadow: 0 0.25rem 1rem 0 #7B2D2680;
+}
+
+.soundButton:active {
+    padding: 1.3rem 2.8rem;
+    margin: 0.2rem;
+    width: 11.6rem;
+}

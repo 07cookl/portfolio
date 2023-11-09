@@ -78,7 +78,7 @@ const ImageCarousel = ({ images }) => {
                 </div>
             </div>
             <h2 className={styles.projectTitle}>{images[currentImageIndex].title}</h2>
-            <p className={styles.projectDescription}>{images[currentImageIndex].description}</p>
+            <p className={styles.projectDescription}><hr/>{images[currentImageIndex].description}</p>
         </div>
     );
 };

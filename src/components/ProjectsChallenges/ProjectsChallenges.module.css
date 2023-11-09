@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    margin-top: 3rem;
+    color: var(--text);
+    overflow: hidden;
+}
+
+.projectsContainer, .challengesContainer {
+    width: 35rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    border-radius: 0.25rem;
+    position: relative;
+}
+
+.projectsContainer {
+    background-image: url("../../resources/images/codecademy.png");
+    left: -50%;
+    animation: slideInLeft 1s ease 1 forwards;
+}
+
+.challengesContainer {
+    background-image: url("../../resources/images/50Projects.png");
+    left: 50%;
+    animation: slideInRight 1s ease 1 forwards;
+}
+
+.projectInfo {
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.projectInfo h2 {
+    margin: 0;
+    align-self:first baseline;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.projectInfo a {
+    color: var(--highlight);
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.projectInfo p {
+    font-family: 'Quicksand-SemiBold', sans-serif;
+    line-height: 1.25rem;
+}
+
+.projectInfo button {
+    width: 25rem;
+    height: 4.5rem;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to right, var(--highlight) 50%, var(--card) 50%);
+    background-position: right;
+    color: var(--text);
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    margin: 1rem 0;
+    transition: background-position 0.5s;
+    cursor: pointer;
+}
+
+.projectInfo button:hover {
+    background-position: left;
+}
+
+@keyframes slideInLeft {
+    90% {
+        left: 1%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slideInRight {
+    90% {
+        left: -1%;
+    }
+    100% {
+        left: 0;
+    }
+}
