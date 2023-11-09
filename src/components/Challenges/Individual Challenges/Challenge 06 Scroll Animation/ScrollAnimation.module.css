@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid var(--text); */
 }
 
 .challengeContainer h2 {
@@ -20,8 +19,8 @@
     margin: 1rem 0;
     background: var(--card);
     border-radius: 0.25rem;
-    box-shadow: 0 8px 32px 0 #7B2D2680;
-    position: relative;
+    box-shadow:  4px 4px 4px rgba(0,0,0,0.2),
+                -2px -2px 2px rgba(0,0,0,0.1);    position: relative;
 }
 
 .challengeContainer div:nth-child(even) {

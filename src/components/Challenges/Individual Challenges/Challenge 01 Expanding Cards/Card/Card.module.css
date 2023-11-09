@@ -1,5 +1,5 @@
 .cardContainer {
-    height: 30rem;
+    height: 25rem;
     width: 4rem;
     margin: 0 0.5rem;
     transition: width 1s ease-in-out;
@@ -11,6 +11,8 @@
     width: 100%;
     object-fit:cover;
     border-radius: 2rem;
+    box-shadow:  4px 4px 4px rgba(0,0,0,0.2),
+                -2px -2px 2px rgba(0,0,0,0.1);
 }
 
 .cardCaption {
@@ -18,8 +20,8 @@
 }
 
 .isActive {
-    width: 40rem;
-    height: 30rem;
+    width: 35rem;
+    height: 25rem;
     margin: 0 0.5rem;
     transition: width 1s ease-in-out;
 }

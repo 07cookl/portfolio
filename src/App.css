@@ -25,11 +25,24 @@ font-family: 'Quicksand-Regular';
 
 :root {
     --nav-height: 50px;
-    --background: #19535F;
+    /* --background: #19535F;
     --card: #0B7A75;
     --accent: #7B2D26;
     --text: #F0F3F5;
-    --highlight: #FFA500;
+    --highlight: #FFA500; */
+
+    /* --background: #4F555C;
+    --card: #A39189;
+    --accent: #A39189;
+    --text: #F0F3F5;
+    --highlight: #E3936C; */
+
+    --background: #373C43;
+    --card: #4F555C;
+    --accent: #D6B89D;
+    --text: #F0F3F5;
+    --highlight: #E3936C;
+
     background-color: var(--background);
 }
 
@@ -39,8 +52,8 @@ font-family: 'Quicksand-Regular';
 
 nav {
     height: var(--nav-height);
-    background: #7B2D2655;
-    box-shadow: 0 0 1rem 0 #7B2D2680;
+    /* background: #7B2D2655; */
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.3);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );

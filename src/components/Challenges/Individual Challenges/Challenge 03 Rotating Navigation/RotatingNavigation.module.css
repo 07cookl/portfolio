@@ -46,7 +46,7 @@
     left: 0;
     bottom: 0;
     width: 15rem;
-    transform: rotate(26deg);
+    transform: rotate(27deg);
     transform-origin: top left;
     transition: transform 1s ease;
     clip-path: polygon(0 0, 0 100%, 100% 100%);
@@ -125,7 +125,7 @@
 }
 
 .rotatedArticle {
-    transform: rotate(-26deg);
+    transform: rotate(-27deg);
     transform-origin: top left;
     transition: transform 1s ease;
 }

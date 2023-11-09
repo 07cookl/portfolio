@@ -77,8 +77,10 @@ const ImageCarousel = ({ images }) => {
                     <img className={styles.arrow} src={arrowDown} alt="next project" onClick={goToNext}/>
                 </div>
             </div>
-            <h2 className={styles.projectTitle}>{images[currentImageIndex].title}</h2>
-            <p className={styles.projectDescription}><hr/>{images[currentImageIndex].description}</p>
+            <div className={styles.projectInfo}>
+                <h2 className={styles.projectTitle}>{images[currentImageIndex].title}</h2>
+                <p className={styles.projectDescription}><hr/>{images[currentImageIndex].description}</p>
+            </div>
         </div>
     );
 };
