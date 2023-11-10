@@ -25,8 +25,16 @@
     padding: 1.3rem 2.8rem;
     margin: 0.2rem;
     width: 11.6rem;
+    background: var(--highlight);
 }
 
 .soundButton:hover {
     background: var(--highlight);
+}
+
+@media only screen and (max-width: 601px) {
+    .challengeContainer {
+        width: 22rem;
+        margin: 3rem 0;
+    }
 }

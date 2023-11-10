@@ -2,8 +2,6 @@
     height: calc(100% - var(--nav-height));
     width: 100%;
     position: absolute;
-    /* background-color: #2B303A; */
-    /* background-image: url("../../resources/images/polygon-scatter-haikei.svg"); */
     background-image: url("../../resources/images/About\ Me/Compressed/Beach2.JPEG");
     background-position: right;
     background-repeat: no-repeat;
@@ -65,4 +63,26 @@
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: var(--highlight); }
+}
+
+@media only screen and (max-width: 601px) {
+    .bgImage {
+        background-image: url("../../resources/images/About\ Me/Compressed/Beach1.JPEG");
+        background-size: cover;
+    }
+
+    .content {
+        left: 50%;
+        top: 80%;
+        padding: 1.5rem;
+        height: 12rem;
+    }
+
+    .content h1 {
+        margin: 0;
+    }
+
+    .typewriter {
+        font-size: 1.75rem;
+    }
 }

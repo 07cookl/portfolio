@@ -60,9 +60,13 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-.projectInfo p {
+.desktopText {
     font-family: 'Quicksand-SemiBold', sans-serif;
     line-height: 1.25rem;
+}
+
+.mobileText {
+    display: none;
 }
 
 .projectInfo button {
@@ -101,5 +105,43 @@
     }
     100% {
         left: 0;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+
+    .projectsContainer, .challengesContainer {
+        width: 22rem;
+        height: 17rem;
+        background-size: cover;
+    }
+
+    .projectInfo h2 {
+        font-size: 1.5rem;
+        display: none;
+    }
+
+    .desktopText {
+        display: none;
+    }
+
+    .mobileText {
+        display: block;
+        margin: 0 0 1rem;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .projectInfo button {
+        font-size: 1.5rem;
+        width: 18rem;
+        height: 3rem;
+        padding: 0;
+        margin: 0;
     }
 }

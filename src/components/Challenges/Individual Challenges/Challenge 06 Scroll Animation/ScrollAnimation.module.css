@@ -36,3 +36,13 @@
 .challengeContainer div:nth-child(-n + 3) {
     left: 0 !important;
 }
+
+@media only screen and (max-width: 601px) {
+    .challengeContainer {
+        width: 22rem;
+    }
+
+    .challengeContainer h2 {
+        text-align: center;
+    }
+}

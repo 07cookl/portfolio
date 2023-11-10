@@ -101,3 +101,9 @@ nav a:hover::after {
     transform: scaleX(1);
     transform-origin: center bottom;
 }
+
+@media only screen and (max-width: 601px) {
+    nav {
+        font-size: 1.25rem;
+    }
+}

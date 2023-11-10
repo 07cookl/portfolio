@@ -96,11 +96,9 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 601px) {
     .layout {
-        margin: auto;
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
+        margin-top: 2rem;
+        grid-template-columns: 1fr;
     }
 }

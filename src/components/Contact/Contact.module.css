@@ -41,3 +41,40 @@
 .logo {
     width: 3rem;
 }
+
+@media only screen and (max-width: 601px) {
+    .container {
+        flex-direction: column-reverse;
+        position:static;
+        top:0;
+        left:0;
+        transform:none;
+        margin-top: 3rem;
+        gap: 2rem;
+    }
+
+    .contactText {
+        width: 21rem;
+    }
+
+    .contactText h1 {
+        font-size: 2rem;
+    }
+
+    .contactText p {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin: 1rem 0;
+    }
+
+    .logo {
+        width: 2rem;
+        position: absolute;
+        top: 6.4rem;
+        right: 4rem;
+    }
+
+    .photo {
+        height: 17rem;
+    }
+}

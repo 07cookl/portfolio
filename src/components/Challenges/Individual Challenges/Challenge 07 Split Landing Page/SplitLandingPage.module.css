@@ -67,3 +67,25 @@
     border: 0.25rem solid rgb(2, 90, 28);
     cursor: pointer;
 }
+
+.challengeContainer p {
+    display: none;
+}
+
+@media only screen and (max-width: 601px) {
+    .challengeContainer {
+        width: 22rem;
+        height: 10rem;
+    }
+
+    .challengeContainer p {
+        display: block;
+        color: var(--text);
+        font-family: 'Quicksand', sans-serif;
+        align-self: center;
+    }
+
+    .leftSide, .rightSide {
+        display: none;
+    }
+}

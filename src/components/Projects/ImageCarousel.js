@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import styles from "./ImageCarousel.module.css";
-import arrowUp from "../../resources/images/arrow-up.svg";
-import arrowDown from "../../resources/images/arrow-down.svg";
+import arrowLeft from "../../resources/images/arrow-left.svg";
+import arrowRight from "../../resources/images/arrow-right.svg";
 
 const ImageCarousel = ({ images }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -64,7 +64,7 @@ const ImageCarousel = ({ images }) => {
                     </div>
                 </div>
                 <div className={styles.thumbnailContainer}>
-                    <img className={styles.arrow} src={arrowUp} alt="previous project" onClick={goToPrevious}/>
+                    <img className={styles.arrow} src={arrowLeft} alt="previous project" onClick={goToPrevious}/>
                     {images.map((image, index) => (
                     <img
                         key={index}
@@ -74,7 +74,7 @@ const ImageCarousel = ({ images }) => {
                         onClick={() => changeImage(index)}
                     />
                     ))}
-                    <img className={styles.arrow} src={arrowDown} alt="next project" onClick={goToNext}/>
+                    <img className={styles.arrow} src={arrowRight} alt="next project" onClick={goToNext}/>
                 </div>
             </div>
             <div className={styles.projectInfo}>

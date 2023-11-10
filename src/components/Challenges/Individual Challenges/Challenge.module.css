@@ -55,3 +55,22 @@
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5rem;
 }
+
+@media only screen and (max-width: 601px) {
+    .challengeContainer {
+        width: 23rem;
+        margin-top: 1.75rem;
+    }
+
+    .challenge {
+        padding: 1rem 0.5rem;
+    }
+
+    .challengeTitle {
+        font-size: 1.75rem;
+    }
+
+    .challengeInfo button {
+        margin-bottom: 1rem;
+    }
+}

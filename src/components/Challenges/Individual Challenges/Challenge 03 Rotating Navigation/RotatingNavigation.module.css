@@ -129,3 +129,22 @@
     transform-origin: top left;
     transition: transform 1s ease;
 }
+
+@media only screen and (max-width: 601px) {
+    .challengeContainer {
+        height: 30rem;
+        overflow-y: scroll;
+    }
+
+    .navigationButton {
+        height: 10rem;
+    }
+
+    .articleContainer {
+        width: 90%;
+    }
+
+    .articleContainer h2 {
+        margin-top: 5rem;
+    }
+}

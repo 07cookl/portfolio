@@ -24,7 +24,6 @@
 }
 
 .form input {
-    /* width: 100%; */
     margin-bottom: 2rem;
     height: 2.5rem;
     font-size: 1.25rem;
@@ -81,11 +80,16 @@
 }
 
 .challengeContainer p {
-    margin: 0;
-    margin-top: 1.5rem;
+    margin: 1.5rem 0 0;
 }
 
 .challengeContainer p a {
     color: var(--highlight);
     text-decoration: none;
+}
+
+@media only screen and (max-width: 601px) {
+    .challengeContainer {
+        padding: 2rem 3rem;
+    }
 }

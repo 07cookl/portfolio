@@ -76,3 +76,18 @@
     background-color: gray;
     cursor:not-allowed;
 }
+
+@media only screen and (max-width: 601px) {
+    .challengeContainer {
+        margin: 2rem 0;
+    }
+
+    .bubble {
+        height: 3rem;
+        width: 3rem;
+        line-height: 2.5rem;
+    }
+    .connector {
+        width: 2rem;
+    }
+}
