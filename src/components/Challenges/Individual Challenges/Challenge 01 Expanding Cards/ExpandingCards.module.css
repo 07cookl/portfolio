@@ -11,3 +11,9 @@
         flex-direction: column;
     }
 }
+
+@media only screen and (min-width: 602px) and (max-width: 769px) {
+    .cardsContainer {
+        width: 100%;
+    }
+}

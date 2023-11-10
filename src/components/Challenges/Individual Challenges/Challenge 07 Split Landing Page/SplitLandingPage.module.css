@@ -72,7 +72,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 769px) {
     .challengeContainer {
         width: 22rem;
         height: 10rem;

@@ -13,6 +13,8 @@
 
 .challenge {
     margin-top: 0.25rem;
+    display: flex;
+    justify-content: center;
     border-radius: 0.5rem;
     padding: 1rem 3rem;
     background: var(--card);
@@ -64,6 +66,27 @@
 
     .challenge {
         padding: 1rem 0.5rem;
+    }
+
+    .challengeTitle {
+        font-size: 1.75rem;
+    }
+
+    .challengeInfo button {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 602px) and (max-width: 769px) {
+    .challengeContainer {
+        width: 100%;
+        margin-top: 1.75rem;
+        padding: 0 5%;
+    }
+
+    .challenge {
+        padding: 1rem 2rem;
+        width: 90%;
     }
 
     .challengeTitle {

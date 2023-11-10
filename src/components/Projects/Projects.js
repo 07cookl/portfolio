@@ -1,5 +1,5 @@
 import React from "react";
-import imagesForCarousel from "../../util/images";
+import imagesForCarousel from "../../util/projectsData";
 import ImageCarousel from "./ImageCarousel";
 import styles from "./Projects.module.css";
 

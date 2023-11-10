@@ -65,17 +65,68 @@
     .wrapper {
         padding: 0;
     }
+
     .aboutMeImages {
         position: absolute;
         z-index: -1;
-        margin: 2rem 0;
+        margin: 2.5rem 0;
         width: 90%;
         overflow: hidden;
-        max-height: 55rem;
+        max-height: 75rem;
+        gap: 1rem;
     }
 
     .aboutMeImages img {
         box-shadow: none;
+    }
+
+    .aboutMeText {
+        margin-top: 0rem;
+        width: 100%;
+        padding: 2rem;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
+    }
+
+    .aboutMeText h1 {
+        font-size: 2rem;
+    }
+
+    .aboutMeText p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin: 1.5rem 0;
+    }
+
+    .aboutMeText a {
+        font-size: 1rem;
+        margin: 0;
+        line-height: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 602px) and (max-width: 769px) {
+    .wrapper {
+        padding: 0;
+    }
+
+    .aboutMeImages {
+        position: absolute;
+        z-index: -1;
+        top: 20%;
+        width: 90%;
+        overflow: hidden;
+        max-height: 75rem;
+        gap: 6rem 1rem;
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .aboutMeImages img {
+        box-shadow: none;
+    }
+
+    .imageContainer:nth-child(9),
+    .imageContainer:nth-child(10) {
+        display: none;
     }
 
     .aboutMeText {

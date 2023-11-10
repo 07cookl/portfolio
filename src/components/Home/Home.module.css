@@ -75,14 +75,40 @@
         left: 50%;
         top: 80%;
         padding: 1.5rem;
-        height: 12rem;
+        height: 10rem;
+        width: 23rem;
     }
 
     .content h1 {
         margin: 0;
+        font-size: 2rem;
     }
 
     .typewriter {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 602px) and (max-width: 769px) {
+    .bgImage {
+        background-size: cover;
+        background-position: left;
+    }
+
+    .content {
+        left: 50%;
+        top: 75%;
+        height: 12rem;
+        width: 30rem;
+        padding: 1.5rem;
+    }
+
+    .content h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .typewriter {
+        font-size: 1.5rem;
     }
 }

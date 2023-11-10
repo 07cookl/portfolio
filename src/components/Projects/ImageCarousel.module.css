@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 2.5rem 2rem 0;
+    margin: 0 2rem;
 }
 
 .carouselContainer {
@@ -24,7 +24,7 @@
 }
 
 .carouselImage {
-    width: 50rem;
+    width: 45rem;
     overflow: hidden;
 }
 
@@ -69,9 +69,8 @@
 }
 
 .projectInfo {
-    width: 25rem;
+    width: 30rem;
     align-self: first baseline;
-    margin-top: 2.5rem;
 }
 
 .projectTitle {
@@ -87,6 +86,7 @@
     color: var(--text);
     line-height: 1.25rem;
     font-family: 'Quicksand-Regular', sans-serif;
+    white-space: pre-wrap;
 }
 
 @media only screen and (max-width: 601px) {
@@ -114,6 +114,43 @@
         margin-top: 1rem;
         align-self: center;
         width: 23rem;
+    }
+
+    .projectTitle {
+        margin: 0;
+        font-size: 1.75rem;
+    }
+
+    .projectDescription {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 602px) and (max-width: 769px) {
+    .imageCarouselContainer {
+        flex-direction: column;
+        position: static;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .carouselImage {
+        width: 80%;
+    }
+
+    .thumbnailContainer {
+        gap: 0.5rem;
+    }
+
+    .thumbnailContainer img {
+        width: 2.5rem;
+    }
+
+    .projectInfo {
+        margin-top: 1rem;
+        align-self: center;
+        width: 80%;
     }
 
     .projectTitle {

@@ -148,3 +148,14 @@
         margin-top: 5rem;
     }
 }
+
+@media only screen and (min-width: 602px) and (max-width: 769px) {
+    .challengeContainer {
+        height: 30rem;
+        overflow-y: scroll;
+    }
+    
+    .articleContainer h2 {
+        margin-top: 6rem;
+    }
+}

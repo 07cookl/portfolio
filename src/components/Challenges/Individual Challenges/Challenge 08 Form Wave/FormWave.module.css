@@ -49,6 +49,7 @@
     cursor: pointer;
     border: none;
     font-family: 'Quicksand', sans-serif;
+    color: var(--background);
 }
 
 .form button:hover {
@@ -66,7 +67,7 @@
     border-bottom: 0.125rem solid var(--highlight);
 }
 
-.inputContainer label span {
+.span {
     position: relative;
     bottom: 0;
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -86,6 +87,13 @@
 .challengeContainer p a {
     color: var(--highlight);
     text-decoration: none;
+}
+
+.activeLabel {
+    color: var(--highlight);
+    position: relative;
+    bottom: 1.25rem;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 @media only screen and (max-width: 601px) {

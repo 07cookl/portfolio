@@ -4,11 +4,12 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 6rem;
+    gap: 3rem;
     justify-content: center;
     margin-top: 3rem;
     color: var(--text);
     overflow: hidden;
+    padding: 0 1rem;
 }
 
 .projectsContainer, .challengesContainer {
@@ -44,14 +45,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
+    height: 60%;
 }
 
 .projectInfo h2 {
     margin: 0;
     align-self:first baseline;
     font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
 }
 
 .projectInfo a {
@@ -141,6 +145,33 @@
         font-size: 1.5rem;
         width: 18rem;
         height: 3rem;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 602px) and (max-width: 769px) {
+    .container {
+        align-items: center;
+        margin-top: 2rem;
+        padding: 0 1.5rem;
+        gap: 1rem;
+    }
+
+    .projectsContainer, .challengesContainer {
+        width: auto;
+        height: 35rem;
+        background-size: cover;
+    }
+
+    .desktopText {
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .projectInfo button {
+        font-size: 1rem;
+        width: 15rem;
+        height: 2rem;
         padding: 0;
         margin: 0;
     }

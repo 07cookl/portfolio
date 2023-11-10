@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Contact.module.css";
-import { imageOfMe } from "../../util/images";
+import { imageOfMe } from "../../util/projectsData";
 import linkedin from "../../resources/images/linkedin-icon.svg";
 
 export default function Contact () {
