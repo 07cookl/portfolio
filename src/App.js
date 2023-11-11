@@ -11,7 +11,7 @@ import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Challenges from "./components/Challenges/Challenges";
 import Challenge from "./components/Challenges/Individual Challenges/Challenge";
-import TeaCozy from "./resources/project-links/Tea Cozy/TeaCozy";
+import TeaCozy from "./components/TeaCozy/TeaCozy";
 import "./resources/fonts/Quicksand/static/Quicksand-Bold.ttf";
 import "./resources/fonts/Quicksand/static/Quicksand-Light.ttf";
 import "./resources/fonts/Quicksand/static/Quicksand-Medium.ttf";

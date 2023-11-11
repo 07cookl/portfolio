@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./resources/css/TeaCozy.module.css";
+import styles from "./TeaCozy.module.css";
 import logo from "./resources/images/img-tea-cozy-logo.png";
 import bedfordBizarre from "./resources/images/img-bedford-bizarre.jpg";
 import berryBlitz from "./resources/images/img-berryblitz.jpg";
