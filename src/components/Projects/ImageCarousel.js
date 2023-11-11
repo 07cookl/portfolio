@@ -1,12 +1,11 @@
 import React, { useState, useRef } from 'react';
 import styles from "./ImageCarousel.module.css";
+import { Link } from 'react-router-dom';
 import arrowLeft from "../../resources/images/arrow-left.svg";
 import arrowRight from "../../resources/images/arrow-right.svg";
 
 const ImageCarousel = ({ images }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const [dragging, setDragging] = useState(false);
-    const [dragStartX, setDragStartX] = useState(null);
     const carouselRef = useRef(null);
 
     const changeImage = (index) => {
@@ -23,31 +22,7 @@ const ImageCarousel = ({ images }) => {
         setCurrentImageIndex(newIndex);
     };
 
-    const handleMouseDown = (e) => {
-        setDragging(true);
-        setDragStartX(e.clientX);
-    };
-
-    const handleMouseUp = () => {
-    setDragging(false);
-    setDragStartX(null);
-    };
-
-    const handleMouseMove = (e) => {
-    if (dragging && dragStartX !== null) {
-        const diffX = e.clientX - dragStartX;
-        if (diffX > 50) {
-        goToPrevious();
-        setDragStartX(e.clientX);
-        } else if (diffX < -50) {
-        goToNext();
-        setDragStartX(e.clientX);
-        }
-    }
-    };
-
     const thumbnailClass = styles.active;
-
 
     return (
         <div className={styles.imageCarouselContainer}>
@@ -55,12 +30,11 @@ const ImageCarousel = ({ images }) => {
                 <div className={styles.carouselContainer}>
                     <div 
                     className={styles.carouselImage}
-                    onMouseDown={handleMouseDown}
-                    onMouseUp={handleMouseUp}
-                    onMouseMove={handleMouseMove}
                     ref={carouselRef}
                     >
-                    <a href={images[currentImageIndex].link}><img src={images[currentImageIndex].src} alt={images[currentImageIndex].alt} /></a>
+                    {images[currentImageIndex].title === "Tea Cozy" ? 
+                    <Link to={images[currentImageIndex].link}><img src={images[currentImageIndex].src} alt={images[currentImageIndex].alt}/></Link> : 
+                    <a href={images[currentImageIndex].link}><img src={images[currentImageIndex].src} alt={images[currentImageIndex].alt} /></a>}
                     </div>
                 </div>
                 <div className={styles.thumbnailContainer}>
