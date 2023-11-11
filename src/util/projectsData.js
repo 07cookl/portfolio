@@ -17,7 +17,7 @@ const imagesForCarousel = [
     description: "This project was direct from Codecademy, designed to be a pet adoption website. Click the image to go to the project.\n\nWorking on this project allowed me to practise my React Router skills, enabling me to organise the app's content and create a more engaging and clear user experience on a Single Page Application. I have applied this React Router knowledge to my portfolio as I like how SPAs do not require refreshing or additional server requests to re-load the content."},
     {src: appointmentPlanner, alt: "preview of Appointment Planner project", link: "https://appointment-planner-07cookl.netlify.app/", title: "Appointment Planner",
     description: "This was an early project in my lessons designed to make use of stateful and stateless functional React components to create an appointment planner app. Click the image to go to the project. "},
-    {src: teaCozy, alt: "preview of Tea Cozy project", link: "./teacozy", title: "Tea Cozy",
+    {src: teaCozy, alt: "preview of Tea Cozy project", link: "/teacozy", title: "Tea Cozy",
     description: "This was my first project for Codecademy. The purpose was to further developed my CSS skills and included using CSS Flexbox to create flexible page layouts. Click the image to go to the project."},
 ];
 

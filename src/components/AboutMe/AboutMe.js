@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./AboutMe.module.css";
 import { aboutMePhotos } from "../../util/aboutMeImages";
+import { Link } from "react-router-dom";
 
 export default function AboutMe () {
     return (
@@ -34,8 +35,8 @@ export default function AboutMe () {
                     and ReactJS. I am proficient in using Mocha 
                     and Jest for testing to ensure high quality code and using 
                     Git and Github to efficiently manage my projects. You should 
-                    check out my <a href="/projects">Codecademy Projects </a> 
-                    and <a href="/challenges">Challenges</a> that I continue 
+                    check out my <Link  className={styles.link} to="/projects">Codecademy Projects </Link> 
+                    and <Link className={styles.link} to="/challenges">Challenges</Link> that I continue 
                     to complete to further develop my skills.</p>
 
                 <p>When I'm not spreading the joyous message of Pythagoras 
@@ -52,7 +53,7 @@ export default function AboutMe () {
                 <p>So, whether you're a fellow web enthusiast or just 
                     someone looking for a developer who's ready to dive 
                     headfirst into your project,  
-                    <a href="/contact"> I'm here and excited to connect</a>!</p>
+                    <Link className={styles.link} to="/contact"> I'm here and excited to connect</Link>!</p>
             </div>
         </div>
     )
