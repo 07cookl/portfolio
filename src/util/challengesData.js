@@ -17,6 +17,10 @@ import FormWave from "../components/Challenges/Individual Challenges/Challenge 0
 import formWave from "../resources/images/Challenges/Form Wave.png";
 import SoundBoard from "../components/Challenges/Individual Challenges/Challenge 09 Sound Board/SoundBoard";
 import soundBoard from "../resources/images/Challenges/Sound Board.png";
+import DadJokes from "../components/Challenges/Individual Challenges/Challenge 10 Dad Jokes/DadJokes";
+import dadJokes from "../resources/images/Challenges/Dad Jokes.png";
+import EventKeycodes from "../components/Challenges/Individual Challenges/Challenge 11 Event Keycodes/EventKeycodes";
+import eventKeycodes from "../resources/images/Challenges/Event Keycode.png";
 
 export const challengesData = [
     {id: 0, src:expandingCards, challenge: <ExpandingCards />, title:"Expanding Cards", description: "This challenge involved using dynamic states to allow the user to change the feature image. I achieved this by first mapping each card into the container, then setting active classes using props, useState( ) and ternary operators. The mobile version required major changes to the layout and function, which provoked further thoughts over applying different content to different media."},
@@ -28,8 +32,8 @@ export const challengesData = [
     {id: 6, src:splitLandingPage, challenge: <SplitLandingPage />, title:"Split Landing Page", description: "This challenge is designed to be a responsive landing page to take the user down one of two routes. To achieve this effect I used hover features to transition the width of the target side. Additionally, I used box-shadow to create the colour overlay for each image."},
     {id: 7, src:formWave, challenge: <FormWave />, title:"Form Wave", description: "This challenge included using inline styles to create the movement effect. Each character for the input fields is in its own <span> tag with an individual transition-delay value. I also used a cubic-bezier curve to achieve the bouncing effect."},
     {id: 8, src:soundBoard, challenge: <SoundBoard />, title:"Sound Board", description: "This challenge required the use of playing audio upon user interaction. I used JavaScript's built in Audio feature inside an onClick handler to achieve this."},
-    // {id: 9, src:image, title:"Challenge Title", description: "This is the challenge description."},
-    // {id: 10, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    {id: 9, src:dadJokes, challenge: <DadJokes />, title:"Dad Jokes", description: "This challenge provides the user with comedy gold on every click. The jokes are stored in an array and, using Math.floor( ) and Math.random( ), a random joke is chosen on each button click. You are welcome to use these jokes to impress friends and family."},
+    {id: 10, src:eventKeycodes, challenge: <EventKeycodes />, title:"Event Keycodes", description: "This challenge tells users the keycode for whichever key they press. This information is useful for developers who wish trigger actions when certain keys are pressed. To achieve this, I added an event listener to the document to activate on 'keydown' and provide the data for the corresponding key. After testing, I realised mobile users can't type without an input field, so I added one to appear on mobile only."},
     // {id: 11, src:image, title:"Challenge Title", description: "This is the challenge description."},
     // {id: 12, src:image, title:"Challenge Title", description: "This is the challenge description."},
     // {id: 13, src:image, title:"Challenge Title", description: "This is the challenge description."},
