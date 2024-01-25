@@ -29,7 +29,7 @@ export default function AboutMe () {
                     the journey.</p>
 
                 <p>In 2023 I took the plunge to become a Front End Developer, 
-                    driven by an unwavering passiong for the problem-solving 
+                    driven by an unwavering passion for the problem-solving 
                     intricacies it offers. I am well-versed in essential web 
                     development languages, including HTML, CSS, JavaScript 
                     and ReactJS. I am proficient in using Mocha 
@@ -41,7 +41,7 @@ export default function AboutMe () {
 
                 <p>When I'm not spreading the joyous message of Pythagoras 
                     and Trigonometry or creating outstanding websites and 
-                    apps, I can be found training for the Ironman 70.3 Bolton, 
+                    apps, I can be found training for the Ironman Portugal-Cascais, 
                     getting lost in the MCU or saving the planet on video games.</p>
 
                 <p>I believe that life's most rewarding journeys are the ones 
