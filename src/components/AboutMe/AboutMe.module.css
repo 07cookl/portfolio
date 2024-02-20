@@ -1,15 +1,15 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    gap: 3rem;
-    padding-top: 1.5rem;
+    gap: 4.5vw;
+    padding-top: 2.25vw;
 }
 
 .aboutMeImages {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 0 1rem;
-    width: 26rem;
+    gap: 0 1.5vw;
+    width: 39vw;
     margin: 2rem 0;
 }
 
@@ -29,29 +29,29 @@
 }
 
 .aboutMeText {
-    width: 45rem;
+    width: 50vw;
     margin-top: 2rem;
     color: var(--text);
 }
 
 .aboutMeText h1 {
-    font-size: 4rem;
+    font-size: 5vw;
     margin-top: 0;
     margin-bottom: 1rem;
     font-family: 'Quicksand-SemiBold', sans-serif;
 }
 
 .aboutMeText p {
-    font-size: 1.5rem;
+    font-size: 2.25vw;
     margin: 2rem 0;
-    line-height: 2rem;
+    line-height: 2.7vw;
     font-family: 'Quicksand-Regular', sans-serif;
 }
 
 .aboutMeText a {
-    font-size: 1.5rem;
+    font-size: 2.25vw;
     margin: 2rem 0;
-    line-height: 2rem;
+    line-height: 2.7vw;
     font-family: 'Quicksand-Regular', sans-serif;
     color: var(--highlight);
     text-decoration: none;

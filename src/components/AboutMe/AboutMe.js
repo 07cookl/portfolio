@@ -52,8 +52,7 @@ export default function AboutMe () {
                     
                 <p>So, whether you're a fellow web enthusiast or just 
                     someone looking for a developer who's ready to dive 
-                    headfirst into your project,  
-                    <Link className={styles.link} to="/contact"> I'm here and excited to connect</Link>!</p>
+                    headfirst into your project, <Link className={styles.link} to="/contact">I'm here and excited to connect</Link>!</p>
             </div>
         </div>
     )

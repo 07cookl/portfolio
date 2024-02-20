@@ -1,6 +1,6 @@
 .challengeContainer {
     margin-top: 2.5rem;
-    width: 65rem;
+    width: 70vw;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -15,7 +15,7 @@
     margin-top: 0.25rem;
     display: flex;
     justify-content: center;
-    border-radius: 0.5rem;
+    border-radius: 0.75vw;
     padding: 1rem 3rem;
     background: var(--card);
     box-shadow:  4px 4px 4px rgba(0,0,0,0.2),
@@ -29,14 +29,15 @@
 .challengeInfo button {
     background: var(--card);
     border: none;
-    border-radius: 0.25rem;
+    border-radius: 0.5vw;
     color: var(--text);
-    padding: 1rem;
+    padding: 1.5vw;
     font-family: 'Quicksand', sans-serif;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
+    font-size: 2vw;
 }
 
 .challengeInfo button:hover {
@@ -44,18 +45,20 @@
 }
 
 .challengeInfo button:active {
-    padding: 0.8rem;
-    margin: 0.2rem 0;
+    padding: 1.4vw;
+    margin: 0.1vw 0;
 }
 
 .challengeTitle {
     font-family: 'Quicksand', sans-serif;
-    margin: 1rem 0;
+    margin: 1.5vw 0;
+    font-size: 2.5vw;
 }
 
 .challengeDescription {
     font-family: 'Quicksand', sans-serif;
-    line-height: 1.5rem;
+    line-height: 2vw;
+    font-size: 1.5vw;
 }
 
 @media only screen and (max-width: 601px) {

@@ -8,7 +8,7 @@
 }
 
 .navigationButton {
-    height: 15rem;
+    height: 15vw;
     aspect-ratio: 1;
     border-radius: 50%;
     background: var(--accent);
@@ -25,7 +25,7 @@
     position: relative;
     top: 75%;
     left: 25%;
-    width: 3rem;
+    width: 4vw;
     cursor: pointer;
     transform: translate(-50%, -75%);
 }
@@ -33,8 +33,8 @@
 .openMenu {
     position: relative;
     top: 75%;
-    left: calc(75% - 3rem);
-    width: 3rem;
+    left: calc(75% - 4vw);
+    width: 4vw;
     cursor: pointer;
     transform: translate(-75%, -50%);
 }
@@ -45,8 +45,8 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: 15rem;
-    transform: rotate(27deg);
+    width: 15vw;
+    transform: rotate(42deg);
     transform-origin: top left;
     transition: transform 1s ease;
     clip-path: polygon(0 0, 0 100%, 100% 100%);
@@ -54,16 +54,16 @@
 
 .sideMenu ul {
     position: relative;
-    top:60%;
+    top:70%;
     padding-left: 0;
     transform: translateX(-100%);
     transition: transform 1s ease;
 }
 
 .sideMenu li {
-    margin: 1rem 0;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    margin: 1vw 0;
+    font-size: 2vw;
+    line-height: 2vw;
     color: var(--text);
     list-style: none;
     display: flex;
@@ -71,19 +71,19 @@
 }
 
 .sideMenu li img {
-    height: 2rem;
+    height: 2.5vw;
 }
 
 .sideMenu li:nth-child(1) {
-    padding-left: 1rem;
+    padding-left: 1vw;
 }
 
 .sideMenu li:nth-child(2) {
-    padding-left: 2rem;
+    padding-left: 2vw;
 }
 
 .sideMenu li:nth-child(3) {
-    padding-left: 3rem;
+    padding-left: 3vw;
 }
 
 .articleContainer {
@@ -94,18 +94,27 @@
 
 .articleContainer h2 {
     margin-bottom: 0;
+    font-size: 2.5vw;
+}
+
+.articleContainer h3 {
+    font-size: 2vw;
 }
 
 .articleAuthor {
     margin: 0;
-    font-size: 0.75rem;
+    font-size: 1vw;
 }
 
 .articleContainer img {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    height: 8rem;
+    height: 12vw;
+}
+
+.articleText {
+    font-size: 1.5vw;
 }
 
 .rotatedButton {
@@ -125,7 +134,7 @@
 }
 
 .rotatedArticle {
-    transform: rotate(-27deg);
+    transform: rotate(-19deg);
     transform-origin: top left;
     transition: transform 1s ease;
 }

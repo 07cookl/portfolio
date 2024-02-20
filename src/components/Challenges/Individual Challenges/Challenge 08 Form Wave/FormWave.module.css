@@ -11,7 +11,7 @@
 
 .challengeContainer h2 {
     margin: 0 0 2.5rem;
-    font-size: 2rem;
+    font-size: 2vw;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -24,9 +24,9 @@
 }
 
 .form input {
-    margin-bottom: 2rem;
-    height: 2.5rem;
-    font-size: 1.25rem;
+    margin-bottom: 2vw;
+    height: 2.5vw;
+    font-size: 1.25vw;
     background-color: var(--card);
     border: none;
     border-bottom: 0.125rem solid var(--text);
@@ -37,15 +37,15 @@
 
 .form label {
     position: absolute;
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     font-family: 'Quicksand', sans-serif;
 }
 
 .form button {
     width: 100%;
-    font-size: 1.25rem;
-    padding: 1rem;
-    border-radius: 0.5rem;
+    font-size: 1.25vw;
+    padding: 1vw;
+    border-radius: 0.5vw;
     cursor: pointer;
     border: none;
     font-family: 'Quicksand', sans-serif;
@@ -57,8 +57,8 @@
 }
 
 .form button:active {
-    padding: 0.8rem;
-    margin: 0.2rem;
+    padding: 0.8vw;
+    margin: 0.2vw;
     width: 95%;
 }
 
@@ -76,12 +76,13 @@
 .inputContainer:focus-within label span {
     color: var(--highlight);
     position: relative;
-    bottom: 1.25rem;
+    bottom: 1.25vw;
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .challengeContainer p {
-    margin: 1.5rem 0 0;
+    margin: 1.5vw 0 0;
+    font-size: 1vw;
 }
 
 .challengeContainer p a {

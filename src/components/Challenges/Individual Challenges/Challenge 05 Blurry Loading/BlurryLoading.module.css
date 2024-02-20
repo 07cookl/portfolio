@@ -2,12 +2,12 @@
     position: relative;
     height: 100%;
     width: 100%;
-    margin: 5rem 0;
+    margin: 7vw 0;
 }
 
 .image {
-    height: 15rem;
-    width: 40rem;
+    height: 20vw;
+    width: 50vw;
     background-image: url("./images/Sunny\ Beach.jpg");
     background-size: cover;
     display: flex;
@@ -17,10 +17,11 @@
 
 .challengeContainer p {
     background: rgba(0,0,0,0.6);
-    height: 2rem;
-    width: 4rem;
+    height: 4vw;
+    width: 6vw;
     text-align: center;
-    line-height: 2rem;
+    line-height: 4vw;
+    font-size: 2vw;
     color: var(--text);
     opacity: 1;
     position: absolute;

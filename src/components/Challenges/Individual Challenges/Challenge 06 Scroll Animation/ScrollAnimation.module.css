@@ -1,6 +1,6 @@
 .challengeContainer {
-    width: 50rem;
-    height: 25rem;
+    width: 50vw;
+    height: 25vw;
     overflow-y: scroll;
     overflow-x: hidden;
     display: flex;
@@ -10,17 +10,19 @@
 
 .challengeContainer h2 {
     color: var(--text);
+    font-size: 3vw;
 }
 
 .challengeContainer div {
-    font-size: 2rem;
+    font-size: 2vw;
     padding: 2rem 3rem;
     color: var(--text);
     margin: 1rem 0;
     background: var(--card);
     border-radius: 0.25rem;
     box-shadow:  4px 4px 4px rgba(0,0,0,0.2),
-                -2px -2px 2px rgba(0,0,0,0.1);    position: relative;
+                -2px -2px 2px rgba(0,0,0,0.1);    
+    position: relative;
 }
 
 .challengeContainer div:nth-child(even) {

@@ -5,31 +5,32 @@
     align-items: center;
     color: var(--card);
     background: var(--highlight);
-    padding: 1rem 3rem;
-    border-radius: 0.25rem;
+    padding: 1vw 3vw;
+    border-radius: 0.25vw;
 }
 
 .tagline {
     font-family: 'Quicksand', sans-serif;
-    margin: 1rem 0;
+    margin: 1vw 0;
+    font-size: 3vw;
 }
 
 .joke {
-    font-size: 2rem;
+    font-size: 2vw;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    margin: 1rem 0 0;
+    margin: 1vw 0 0;
     white-space: pre-wrap;
 }
 
 .challengeContainer button {
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;
-    margin: 2rem 0 1rem;
+    font-size: 1.5vw;
+    margin: 2vw 0 1vw;
     background: var(--text);
     border: none;
-    border-radius: 0.25rem;
-    padding: 1rem 2rem;
+    border-radius: 0.25vw;
+    padding: 1vw 2vw;
     color: var(--card);
     cursor: pointer;
     box-shadow: 0.25rem 0.25rem 0.25rem rgba(0,0,0,0.2),
@@ -37,8 +38,8 @@
 }
 
 .challengeContainer button:active {
-    margin: 2.2rem 0.2rem 1.2rem;
-    padding: 0.8rem 1.8rem;
+    margin: 2.2vw 0.2vw 1.2vw;
+    padding: 0.8vw 1.8vw;
 }
 
 @media only screen and (max-width: 601px) {

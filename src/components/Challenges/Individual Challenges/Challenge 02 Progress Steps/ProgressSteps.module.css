@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 7rem 0;
+    margin: 8vw 4vw;
 }
 
 .progressBar {
@@ -12,19 +12,19 @@
 }
 
 .bubble {
-    height: 4rem;
-    width: 4rem;
+    height: 6vw;
+    width: 6vw;
     text-align: center;
-    line-height: 3.5rem;
+    line-height: 6vw;
     background-color: var(--text);
-    font-size: 2rem;
+    font-size: 3vw;
     border: 0.25rem solid lightgrey;
     border-radius: 50%;
 }
 
 .connector {
-    width: 6rem;
-    height: 0.5rem;
+    width: 9vw;
+    height: 1vw;
     background: var(--text);
 }
 
@@ -49,16 +49,17 @@
 .buttons {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 3vw;
 }
 
 .btn {
-    height: 2rem;
-    width: 6rem;
+    height: 3vw;
+    width: 9vw;
     box-shadow: none;
     border: none;
     border-radius: 0.5rem;
-    font-size: 1.25rem;
+    margin-top: 3vw;
+    font-size: 2vw;
     font-family: 'Quicksand', sans-serif;
     cursor: pointer;
     color: var(--background);
@@ -69,8 +70,8 @@
 }
 
 .activeBtn:active {
-    height: 1.8rem;
-    width: 5.8rem;
+    height: 2.8vw;
+    width: 8.8vw;
 }
 
 .inactiveBtn {
