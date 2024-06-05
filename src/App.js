@@ -19,6 +19,7 @@ import "./resources/fonts/Quicksand/static/Quicksand-Regular.ttf";
 import "./resources/fonts/Quicksand/static/Quicksand-SemiBold.ttf";
 import "./App.css";
 import ProjectsChallenges from "./components/ProjectsChallenges/ProjectsChallenges";
+import Project from "./components/Projects/Individual Projects/Project";
 
 export default function App() {
   return (
@@ -28,7 +29,9 @@ export default function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="aboutMe" element={<AboutMe/>}/>
           <Route path="projectsChallenges" element={<ProjectsChallenges />}/>
-          <Route path="projects" element={<Projects/>}/>
+          <Route path="projects" element={<Projects/>}>
+            <Route path="/projects/:projectName" element={<Project />} />
+          </Route>
           <Route path="challenges" element={<Challenges/>}/>
           <Route path="challenges/:challengeId" element={<Challenge/>}/>
           <Route path="contact" element={<Contact/>}/>

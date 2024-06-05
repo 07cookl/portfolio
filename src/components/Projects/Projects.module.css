@@ -5,3 +5,14 @@
     align-items: center;
     margin: 2rem 0;
 }
+
+.projectPreviews {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3vw;
+}
+
+.projectImg {
+    width: 20vw;
+}

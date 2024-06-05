@@ -16,7 +16,7 @@ export default function AboutMe () {
             <div className={styles.aboutMeText}>
                 <h1>About Me</h1>
                 <hr/>
-                <p>Hi! My name is Laurence Cook, I'm a Front End Developer.
+                <p>Hi! My name is Laurence Cook, I'm a Full Stack Developer.
                     I live in the charming town of Cleethorpes, with its 
                     glorious golden sands and brilliant blue water, and I'll 
                     be blindly supporting the magnificent Grimsby Town until 
@@ -28,12 +28,14 @@ export default function AboutMe () {
                     with some truly incredible people and learned so much on 
                     the journey.</p>
 
-                <p>In 2023 I took the plunge to become a Front End Developer, 
+                <p>In 2023 I took the plunge to become a Developer, 
                     driven by an unwavering passion for the problem-solving 
                     intricacies it offers. I am well-versed in essential web 
-                    development languages, including HTML, CSS, JavaScript 
-                    and ReactJS. I am proficient in using Mocha 
-                    and Jest for testing to ensure high quality code and using 
+                    development languages, including HTML, CSS and JavaScript, 
+                    as well as multiple frameworks such as React and Express.js. 
+                    Additionally, I can create, use and maintain scalable databases 
+                    using PostgreSQL. I am proficient in using Mocha 
+                    for testing to ensure high quality code and using 
                     Git and Github to efficiently manage my projects. You should 
                     check out my <Link  className={styles.link} to="/projects">Codecademy Projects </Link> 
                     and <Link className={styles.link} to="/challenges">Challenges</Link> that I continue 
@@ -46,7 +48,7 @@ export default function AboutMe () {
 
                 <p>I believe that life's most rewarding journeys are the ones 
                     that allow you to combine passion, purpose, and a pinch 
-                    of adventure. As a Front End Developer, I'm here to 
+                    of adventure. As a Full Stack Developer, I'm here to 
                     infuse that passion into every project I touch, bringing 
                     your digital visions to life.</p>
                     

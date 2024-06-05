@@ -57,7 +57,7 @@
 
 @keyframes typing {
     from { width: 0ch }
-    to { width: 20ch }
+    to { width: 21ch }
 }
 
 @keyframes blink-caret {

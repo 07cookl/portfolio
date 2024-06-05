@@ -9,7 +9,7 @@ export default function Home () {
             <div className={styles.content}>
                 {/* <img src={logo} alt="logo" height="300" /> */}
                 <h1>Laurence Cook</h1>
-                <span className={styles.typewriter}>Front End Developer</span>
+                <span className={styles.typewriter}>Full Stack Developer</span>
             </div>
         </div>
     )
