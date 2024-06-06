@@ -60,6 +60,54 @@ a {
 
 /* Site Navigation */
 
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background) !important;
+    > h1 {
+        font-size: 4vw;
+        font-family: 'Quicksand-Bold', sans-serif;
+        color: var(--text);
+        margin: 1rem 0;
+    }
+    > a {
+        width: 25vw;
+        height: 4.5vw;
+        background-size: 200% 200%;
+        background-image: linear-gradient(to right, var(--highlight) 50%, var(--card) 50%);
+        background-position: right;
+        color: var(--text);
+        font-family: 'Quicksand', sans-serif;
+        border: solid 1px var(--text);
+        border-radius: 0.5vw;
+        font-size: 2vw;
+        margin: 1rem 0;
+        transition: background-position 0.5s;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        line-height: 4.5vw;
+    }
+    > a:hover {
+        background-position: left;
+    }
+}
+
+.description {
+    width: 80vw;
+    background-color: var(--background) !important;
+    margin-bottom: 3vw;
+    > p {
+        font-size: 2vw;
+        font-family: 'Quicksand-Regular', sans-serif;
+        color: var(--text);
+        text-align: left;
+        line-height: 2.5vw;
+    }
+}
+
 .header {
     /* position: fixed; */
     height: 69px;

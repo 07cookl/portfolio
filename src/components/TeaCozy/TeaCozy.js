@@ -10,7 +10,14 @@ import spicedRum from "./resources/images/img-spiced-rum.jpg";
 export default function TeaCozy () {
     return (
         <div className={styles.teaCozy}>
-            <div className={styles.header}>
+            <div className={styles.heading}>
+                <h1>Tea Cozy</h1>
+                <a href="#header">Check It Out</a>
+            </div>
+            <div className={styles.description}>
+                <p>This was one of my earliest projects on the route to becoming a Front End Developer. I was given a wireframe to work from to recreate the website for Tea Cozy. The site is a simple one-page site and is made using HTML and CSS only. This project was the first time that I'd brought my skills together off the Codecademy platform and really confirmed that Web Development was a route I wanted to go down.</p>
+            </div>
+            <div id="header" className={styles.header}>
                 <img className={styles.logo} src={logo} alt="logo"/>
                 <div className={styles.headerRight}>
                     <ul className={styles.nav}>
