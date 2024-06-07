@@ -271,3 +271,72 @@ a {
 .contact {
     height: 200px;
 }
+
+@media only screen and (max-width: 1250px) {
+    .header {
+        height: 10vw;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    .logo {
+        height: 6vw;
+    }
+
+    .nav {
+        font-size: 2.5vw;
+    }
+
+    .teaCozy {
+        width: 90vw;
+    }
+    
+    .mission {
+        height: 60vw;
+        width: 90vw;
+    }
+
+    .missionHeading {
+        width: 90vw;
+        font-size: 3vw;
+    }
+
+    .featuredTea {
+        width: 90vw;
+    }
+
+    .teaList h4 {
+        font-size: 3vw;
+    }
+
+    .tea {
+        width: 28vw;
+        height: 21vw;
+        > h4 {
+            font-size: 3vw;
+        }
+    }
+
+    .locationBackground {
+        width: 90vw;
+        height: 80vw;
+        > h2 {
+            color: #000;
+        }
+    }
+
+    .location {
+        height: 42vw;
+        width: 28vw;
+        margin: 0 3vw;
+        > h3 {
+            font-size: 4vw;
+            margin-top: 0;
+        }
+        > p {
+            font-size: 2vw;
+        }
+    }
+}

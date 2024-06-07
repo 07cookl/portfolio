@@ -13,7 +13,13 @@
     border-radius: 0.5vw;
     box-shadow:  4px 4px 4px rgba(0,0,0,0.2),
                 -2px -2px 2px rgba(0,0,0,0.1);
-            }
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .contactText {
     width: 40vw;
@@ -60,6 +66,7 @@
 
     .contactText h1 {
         font-size: 2rem;
+        margin-bottom: 0;
     }
 
     .contactText p {
@@ -70,9 +77,6 @@
 
     .logo {
         width: 2rem;
-        position: absolute;
-        top: 6.4rem;
-        right: 2rem;
     }
 
     .photo {

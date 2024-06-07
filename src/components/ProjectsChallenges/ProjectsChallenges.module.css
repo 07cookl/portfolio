@@ -36,6 +36,7 @@
     background-image: url("../../resources/images/50Projects.png");
     left: 50%;
     animation: slideInRight 1s ease 1 forwards;
+    margin-bottom: 3vw;
 }
 
 .projectInfo {
@@ -125,6 +126,11 @@
         width: 22rem;
         height: 17rem;
         background-size: cover;
+        border-radius: 1vw;
+    }
+
+    .projectInfo {
+        height: 50%;
     }
 
     .projectInfo h2 {

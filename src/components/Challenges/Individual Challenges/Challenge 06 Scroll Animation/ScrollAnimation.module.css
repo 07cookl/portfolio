@@ -42,6 +42,7 @@
 @media only screen and (max-width: 601px) {
     .challengeContainer {
         width: 22rem;
+        height: 80vw;
     }
 
     .challengeContainer h2 {

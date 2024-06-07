@@ -156,6 +156,10 @@
     .articleContainer h2 {
         margin-top: 5rem;
     }
+
+    .sideMenu ul {
+        top: 80%;
+    }
 }
 
 @media only screen and (min-width: 602px) and (max-width: 769px) {
