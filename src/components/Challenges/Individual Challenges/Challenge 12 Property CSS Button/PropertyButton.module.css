@@ -76,7 +76,7 @@
 /* Dots Pattern */
 .shinyCta::before {
     --size: calc(100% - var(--shadow-size) * 3);
-    --position: 2pxl
+    --position: 2px;
     --space: calc(var(--position) * 2);
     width: var(--size);
     height: var(--size);
