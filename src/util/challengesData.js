@@ -23,6 +23,8 @@ import EventKeycodes from "../components/Challenges/Individual Challenges/Challe
 import eventKeycodes from "../resources/images/Challenges/Event Keycode.png";
 import PropertyButton from "../components/Challenges/Individual Challenges/Challenge 12 Property CSS Button/PropertyButton";
 import propertyButton from "../resources/images/Challenges/Property Button.png";
+import Loader from "../components/Challenges/Individual Challenges/Challenge 13 Loader/Loader";
+import loader from "../resources/images/Challenges/Loader.png";
 
 export const challengesData = [
     {id: 0, src:expandingCards, challenge: <ExpandingCards />, title:"Expanding Cards", description: "This challenge involved using dynamic states to allow the user to change the feature image. I achieved this by first mapping each card into the container, then setting active classes using props, useState( ) and ternary operators. The mobile version required major changes to the layout and function, which provoked further thoughts over applying different content to different media."},
@@ -37,7 +39,7 @@ export const challengesData = [
     {id: 9, src:dadJokes, challenge: <DadJokes />, title:"Dad Jokes", description: "This challenge provides the user with comedy gold on every click. The jokes are stored in an array and, using Math.floor( ) and Math.random( ), a random joke is chosen on each button click. You are welcome to use these jokes to impress friends and family."},
     {id: 10, src:eventKeycodes, challenge: <EventKeycodes />, title:"Event Keycodes", description: "This challenge tells users the keycode for whichever key they press. This information is useful for developers who wish trigger actions when certain keys are pressed. To achieve this, I added an event listener to the document to activate on 'keydown' and provide the data for the corresponding key. After testing, I realised mobile users can't type without an input field, so I added one to appear on mobile only."},
     {id: 11, src:propertyButton, challenge: <PropertyButton />, title:"Property Button", description: "This challenge uses the CSS @property to explicity define a syntax, initial value and custom properties. Combined with the CSS trick of adding two animations together to slow the rotation effect when hovering, this creates a complex but eye-catching call-to-action feature."},
-    // {id: 12, src:image, title:"Challenge Title", description: "This is the challenge description."},
+    {id: 12, src:loader, challenge: <Loader />, title:"Loader", description: "This challenge involved learning from a loader I had seen elsewhere to develop my keyframes and animation skills. Some calculations and pre-planning were needed to ensure the timings all worked together for each square, and I'm pleased with the results."},
     // {id: 13, src:image, title:"Challenge Title", description: "This is the challenge description."},
     // {id: 14, src:image, title:"Challenge Title", description: "This is the challenge description."},
     // {id: 15, src:image, title:"Challenge Title", description: "This is the challenge description."},
